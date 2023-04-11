@@ -1,0 +1,27 @@
+.headingContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 12rem;
+}
+
+.headingLeft {
+    max-width: 44.5rem;
+}
+
+.headingRight {
+    width: 54rem;
+}
+
+.header {
+    font-size: 5.6rem;
+    letter-spacing: -1px;
+    margin: 0;
+    font-weight: 700;
+}
+
+.description {
+    margin-top: 1.6rem;
+    margin-bottom: 4rem;
+    max-width: 35rem;
+}

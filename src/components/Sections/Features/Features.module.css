@@ -1,0 +1,27 @@
+.featuresContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: 13.2rem;
+}
+
+.featuresLeft {
+  max-width: 44.5rem;
+}
+
+.description {
+  max-width: 35rem;
+}
+
+.featuresRight {
+  display: grid;
+  grid-template-rows: 3.9rem 1fr;
+  grid-template-columns: 6.7rem 1fr;
+}
+
+.header {
+  font-size: 4rem;
+  letter-spacing: -0.7px;
+  margin-bottom: 2.4rem;
+  font-weight: 700;
+}

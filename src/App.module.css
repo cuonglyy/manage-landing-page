@@ -9,8 +9,14 @@ body {
   box-sizing: border-box;
   font-family: "Be Vietnam Pro", sans-serif;
   min-height: 100vh;
+  font-size: 1.6rem;
 }
 
 .App {
   margin: auto 16.5rem;
+}
+
+.description {
+  color: hsla(228, 38%, 23%, 0.5);
+  line-height: 2.6rem;
 }
