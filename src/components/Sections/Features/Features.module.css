@@ -14,9 +14,15 @@
 }
 
 .featuresRight {
+  counter-reset: num;
+  max-width: 54rem;
+}
+
+.feature {
   display: grid;
   grid-template-rows: 3.9rem 1fr;
   grid-template-columns: 6.7rem 1fr;
+  column-gap: 2.8rem;
 }
 
 .header {
@@ -24,4 +30,29 @@
   letter-spacing: -0.7px;
   margin-bottom: 2.4rem;
   font-weight: 700;
+  margin-top: 0;
+}
+
+.feature__header {
+  font-size: 1.6rem;
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.num::before {
+  counter-increment: num;
+  content: counter(num, decimal-leading-zero);
+  grid-column: 1 / 2;
+  grid-row: 1 / 2;
+  background-color: hsla(12, 88%, 59%, 1);
+  padding: 0.8rem 2.4rem;
+  border-radius: 39px;
+  color: white;
+
+  font-weight: 700;
+}
+
+.feature__description {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
 }
