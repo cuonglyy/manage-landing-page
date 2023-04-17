@@ -1,4 +1,11 @@
 .reviewContainer {
     margin-top: 14.6rem;
+    display: flex;
+    justify-content: center;
+}
+
+.header {
+    font-size: 4rem;
+    font-weight: 700;
 }
 

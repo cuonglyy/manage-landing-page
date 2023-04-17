@@ -7,12 +7,12 @@ html {
 
 body {
   margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   font-family: "Be Vietnam Pro", sans-serif;
   min-height: 100vh;
   font-size: 1.6rem;
-  max-width: 144rem;
 }
 
 .App {

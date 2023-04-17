@@ -3,6 +3,7 @@
   align-items: flex-start;
   justify-content: space-between;
   margin-top: 13.2rem;
+  gap: 12.5rem;
 }
 
 .featuresLeft {
