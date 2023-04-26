@@ -15,6 +15,9 @@
 }
 
 .featuresRight {
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
   counter-reset: num;
   max-width: 54rem;
 }
@@ -31,7 +34,6 @@
   letter-spacing: -0.7px;
   margin-bottom: 2.4rem;
   font-weight: 700;
-  margin-top: 0;
 }
 
 .feature__header {

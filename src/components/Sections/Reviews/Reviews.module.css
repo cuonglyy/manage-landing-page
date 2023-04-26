@@ -8,15 +8,34 @@
 
 .header {
     font-size: 4rem;
-    font-weight: 700;}
+    font-weight: 700;
+}
 
-.slider {
-    margin-top: 10rem;
+.sliderWrapper {
+    position: relative;
+    top: 10rem;
+}
+
+.sliderContainer {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 54rem);
+    position: absolute;
 }
 
 .sliderItem {
-    position: relative;
+    background-color: hsla(0, 0%, 98%, 1);
     text-align: center;
+    padding: 0 4rem 4rem;
+    list-style-type: none;
+}
+
+.sliderItem > img {
+    width: 7.2rem;
+    position: relative;
+    top: -3.6rem;
+}
+
+.name {
+    font-size: 1.6rem;
+    margin-bottom: 1.9rem;
 }
