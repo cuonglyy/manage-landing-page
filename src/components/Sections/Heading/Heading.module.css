@@ -1,8 +1,9 @@
 .headingContainer {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
     margin-top: 12rem;
+    gap: 12.5rem;
 }
 
 .headingLeft {

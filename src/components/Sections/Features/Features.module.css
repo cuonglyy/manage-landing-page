@@ -1,7 +1,7 @@
 .featuresContainer {
   display: flex;
   align-items: flex-start;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 13.2rem;
   gap: 12.5rem;
 }

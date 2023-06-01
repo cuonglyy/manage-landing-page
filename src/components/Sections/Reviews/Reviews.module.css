@@ -11,15 +11,16 @@
     font-weight: 700;
 }
 
-.sliderWrapper {
-    position: relative;
-    top: 10rem;
-}
-
 .sliderContainer {
     display: grid;
     grid-template-columns: repeat(4, 54rem);
-    position: absolute;
+    align-content: start;
+    background-color: green;
+    gap: 3rem;
+    position: relative;
+    padding-top: 10rem;
+    padding-bottom: 4.8rem;
+    overflow: hidden;
 }
 
 .sliderItem {
